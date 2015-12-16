@@ -1,0 +1,43 @@
+{
+  "name": "angular2-polymer-experiments",
+  "version": "1.0.0",
+  "description": "Experiments with Angular2 and Polymer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isidroamv/ng2-minimal-routing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/isidroamv/ng2-minimal-routing/issues"
+  },
+  "homepage": "https://github.com/isidroamv/ng2-minimal-routing#readme",
+  "devDependencies": {
+    "connect": "3.4.0",
+    "del": "2.2.0",
+    "gulp": "3.9.0",
+    "gulp-sass": "^2.1.1",
+    "gulp-typescript": "2.10.0",
+    "gulplog": "1.0.0",
+    "open": "0.0.5",
+    "serve-static": "1.10.0",
+    "typescript": "1.6.2"
+  },
+  "dependencies": {
+    "angular2": "2.0.0-alpha.52"
+  },
+  "jspm": {
+    "directories": {
+      "lib": "."
+    },
+    "dependencies": {
+      "angular2": "npm:angular2@2.0.0-alpha.52",
+      "es6-shim": "github:es-shims/es6-shim@0.33.13",
+      "reflect-metadata": "npm:reflect-metadata@0.1.2",
+      "zone.js": "npm:zone.js@0.5.9"
+    },
+    "devDependencies": {
+      "traceur": "github:jmcriffey/bower-traceur@0.0.91",
+      "traceur-runtime": "github:jmcriffey/bower-traceur-runtime@0.0.91",
+      "typescript": "npm:typescript@1.5.3"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+@import "artist/artist.scss";
+@import "map/map.scss";
+@import "search/search.scss";
+
+$primary_color : #00BCD4;
+$white : #FFFFFF;
+$smoke : #ECF0F1;
+
+html, body {
+	height: 100%;
+	width: 100%;
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+app {
+  display: flex;
+  height: 100%;
+}
+
+nav {
+  height: 100%;
+  max-width: 300px;
+  background: $primary_color;
+  min-width: 300px;
+  width: 20%;
+  text-align: center;
+  
+  ul.countries {
+      list-style: none;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      color: #006064;
+  }
+  
+  paper-button a {
+    color: inherit;
+    text-decoration: none;
+  }
+}
+
+article {
+  height: 100%;
+  background: $white;
+  width: 80%;
+  padding: 20px;
+}

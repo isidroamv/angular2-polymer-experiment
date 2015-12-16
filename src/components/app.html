@@ -1,0 +1,21 @@
+
+<div>
+    <nav>
+        <iron-image src="http://lorempixel.com/250/200/people" preload fade="10000"></iron-image>
+        <paper-input type="search" label="Input label"  class="custom pink"></paper-input>
+        <h2>Countries</h2>
+        <ul class="countries">
+            <li>
+                <paper-button class="custom">
+                    <a [routerLink]="['/Search']">Search</a>
+                </paper-button>
+                <paper-button class="custom">
+                    <a [routerLink]="['/Map']">Map</a>
+                </paper-button>
+            </li>
+        </ul>
+    </nav>
+</div>
+<main>
+    <router-outlet></router-outlet>
+</main>

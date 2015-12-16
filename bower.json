@@ -1,0 +1,22 @@
+{
+  "name": "angular2-polymer-experiments",
+  "description": "Experiments with Angular2 and Polymer",
+  "main": "",
+  "authors": [
+    "Isidro Martínez <isidro.amv@gmail.com>"
+  ],
+  "license": "MIT",
+  "moduleType": [],
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "polymer": "Polymer/polymer#^1",
+    "google-map": "GoogleWebComponents/google-map#~1.1.7"
+  }
+}
